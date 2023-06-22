@@ -5,7 +5,7 @@ const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 
 // Connection string for MongoDB
-const dbConnectUrl = 'mongodb+srv://<cosmas001>:<GU6BIhBRkoshVU7c>@cluster0.8ehdgpg.mongodb.net/?retryWrites=true&w=majority';
+const dbConnectUrl = 'mongodb+srv://cosmas001:GU6BIhBRkoshVU7c@cluster0.8ehdgpg.mongodb.net/?retryWrites=true&w=majority';
 
 // Database connection
 const client = new MongoClient(dbConnectUrl, { useNewUrlParser: true, useUnifiedTopology: true });
