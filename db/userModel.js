@@ -14,4 +14,6 @@ const UserSchema = new mongoose.Schema({
       },
     
   })
-  module.exports = mongoose.model.cosmas001 || mongoose.model("cosmas001", UserSchema);
+  //module.exports = mongoose.model.cosmas001 || mongoose.model("cosmas001", UserSchema);
+
+  module.exports = mongoose.model("User", UserSchema);
